@@ -1,0 +1,41 @@
+body{
+    background-color: #db7eff;
+}
+h1{
+    color:rgb(255, 255, 255);
+
+
+    background-color: #e2b2f5;
+}
+
+#show_sketch{
+    float:right;
+}
+
+canvas{
+    border:5px solid white;
+    border-radius: 20px;
+    animation-name: example;
+    animation-duration: 4s;
+    margin-top: 80px;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example{
+    from{box-shadow:1px 1px 38px grey;}
+    to{box-shadow:1px 1px 38px white;}
+}
+
+p{
+    padding-top: 10px;
+    font-size: 25px;
+    color: white;
+}
+
+label{
+    font-size: 25px;
+    color: white;
+}
+#score{
+    padding-right: 900px
+}
